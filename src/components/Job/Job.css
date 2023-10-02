@@ -1,0 +1,26 @@
+.job {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 0 30px 0 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+  height: 100px;
+}
+.job > h5 {
+  width: 50%;
+}
+
+.job > p {
+  width: 25%;
+}
+
+.job-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.job-link:hover {
+  font-size: 1.1rem;
+}

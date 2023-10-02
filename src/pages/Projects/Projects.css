@@ -1,5 +1,10 @@
 #projects-section {
   min-height: 70vh;
-  text-align: center;
-  font-size: ;
+}
+
+.filler {
+  border: 1px solid black;
+  min-height: 70vh;
+  width: 50vw;
+  margin: 100px auto;
 }

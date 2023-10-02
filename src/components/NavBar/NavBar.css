@@ -1,6 +1,7 @@
 #nav-container {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 nav {
@@ -35,7 +36,6 @@ nav {
 }
 
 .nav-padding {
-  padding-bottom: 5px;
   background-color: var(--main-bg-color);
   border-top: 1px solid #d4d4c9;
 }

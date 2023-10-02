@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id='about-section'>
       <h2>About Me</h2>
-      <p ref={ref} className={`section-text ${visibility ? 'visible' : ''}`}>
+      <p ref={ref} className={`section-content ${visibility ? 'visible' : ''}`}>
         Hello, world! My name is Brayden Massa, and I am a software engineer
         based out of Taunton, Massachusetts. I am currently a year away from
         finishing my Bachelor's of Computer Science from Southern New Hampshrire

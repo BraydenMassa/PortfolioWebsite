@@ -28,7 +28,7 @@ const RelevantExperience = () => {
         <img src={MySQLImg} alt='mysql' />
         <img src={MongoDBImg} alt='mongodb' />
       </div>
-      <p ref={ref} className={`section-text ${visibility ? 'visible' : ''}`}>
+      <p ref={ref} className={`section-content ${visibility ? 'visible' : ''}`}>
         My coding experience began with Java, where I learned a lot of common
         programming concepts such as OOP, polymorphism, abstraction, data
         structures, and algorithms. I then started getting into web development,

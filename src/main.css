@@ -8,23 +8,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 section {
   margin-top: 50px;
 }
 
-.section-text {
+section h2 {
+  font-size: 2.5rem;
+}
+
+.section-content,
+#contact-form {
   background-color: var(--card-bg-color);
   padding: 50px;
-  border: 1px solid #d4d4c9;
+  border: 2px solid #d4d4c9;
   border-radius: 15px;
   font-size: 1.5rem;
   line-height: 40px;
+  z-index: -1;
 }
 
-p.visible {
-  animation: fadeInAnimation ease 3.5s;
+.section-content.visible {
+  animation: fadeInAnimation ease 2.5s;
   animation-iteration-count: 1;
   z-index: -1;
 }

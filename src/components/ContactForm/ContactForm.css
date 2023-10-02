@@ -1,0 +1,29 @@
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+
+.contact-text-input {
+  height: 30px;
+  padding: 24px 0;
+}
+.contact-form-item {
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-submit {
+  border: 1px solid black;
+  width: 30%;
+  margin: 0 auto;
+  height: 30px;
+  cursor: pointer;
+}

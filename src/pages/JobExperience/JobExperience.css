@@ -1,0 +1,14 @@
+#job-experience-section {
+  min-height: 50vh;
+  margin-top: 100px;
+}
+
+#job-experience-content {
+  width: 60%;
+  margin: 100px auto;
+}
+
+.section-content h4 {
+  font-weight: 500;
+  font-size: 1.3rem;
+}

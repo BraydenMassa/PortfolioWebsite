@@ -11,7 +11,7 @@ const NavBar = () => {
               to='about-section'
               spy={true}
               smooth={true}
-              offset={-180}
+              offset={-220}
               duration={500}
             >
               About Me
@@ -22,7 +22,7 @@ const NavBar = () => {
               to='relevant-experience-section'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-150}
               duration={500}
             >
               Relevant Experience
@@ -33,7 +33,7 @@ const NavBar = () => {
               to='projects-section'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-240}
               duration={500}
             >
               Projects
@@ -44,17 +44,18 @@ const NavBar = () => {
               to='job-experience-section'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-220}
               duration={500}
-            ></Link>
-            Job Experience
+            >
+              Job Experience
+            </Link>
           </li>
           <li className='nav-item'>
             <Link
               to='contact-section'
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-220}
               duration={500}
             >
               Contact

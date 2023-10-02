@@ -1,0 +1,9 @@
+#contact-section {
+  min-height: 80vh;
+}
+
+#contact-section > h4 {
+  margin-top: 50px;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
