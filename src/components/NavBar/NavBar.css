@@ -1,0 +1,41 @@
+#nav-container {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: var(--card-bg-color);
+  border-top: 1px solid #d4d4c9;
+}
+
+.navbar {
+  display: flex;
+  width: 60%;
+  min-height: 15vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  border-bottom: 4px solid #e3cf98;
+  padding-bottom: 6px;
+}
+
+.nav-item .active {
+  border-bottom: 4px solid #e3cf98;
+  padding-bottom: 6px;
+}
+
+.nav-padding {
+  padding-bottom: 5px;
+  background-color: var(--main-bg-color);
+  border-top: 1px solid #d4d4c9;
+}
