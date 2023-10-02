@@ -32,6 +32,11 @@ const ContactForm = () => {
         }
       )
   }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    sendEmail(e)
+  }
   return (
     <form
       ref={form}
@@ -60,6 +65,12 @@ const ContactForm = () => {
       <textarea
         value={messageText}
         onChange={(e) => setMessageText(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' && !e.shiftKey) {
+            console.log('here')
+            handleSubmit(e)
+          }
+        }}
         className='contact-form-item'
         name='message'
         id='contact-description'

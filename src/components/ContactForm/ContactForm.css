@@ -27,3 +27,7 @@
   height: 30px;
   cursor: pointer;
 }
+#contact-description {
+  resize: none;
+  overflow: auto;
+}
